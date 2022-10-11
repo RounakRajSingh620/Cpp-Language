@@ -23,10 +23,10 @@ int main(){
     cout<<marks[2]<<endl;
     cout<<marks[3]<<endl;
 
-    for (int i = 0; i <4; i++)
-    {
-        cout<<"The value of marks "<<i <<" is "<<marks[i]<<endl;
-    }
+    // for (int i = 0; i <4; i++)
+    // {
+    //     cout<<"The value of marks "<<i <<" is "<<marks[i]<<endl;
+    // }
 
     // //Quiz quiz : do the same using while and do-while loops?
 
@@ -39,13 +39,13 @@ int main(){
     //    i++;
     // }
 
-    // //DO while
-    // int i=0;
-    // do
-    // {
-    //     cout<<"The value of marks "<<i <<" is "<<marks[i]<<endl;
-    //     i++;
-    // } while (i<4);
+    //DO while
+    int i=0;
+    do
+    {
+        cout<<"The value of marks "<<i <<" is "<<marks[i]<<endl;
+        i++;
+    } while (i<4);
 
     // Pointers and arrays
 

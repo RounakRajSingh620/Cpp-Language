@@ -23,7 +23,7 @@ union money
 
 int main(){
     enum Meal{ breakfast,lunch ,dinner};
-    Meal m1 = lunch;
+    Meal m1 = breakfast;
     cout<<(m1==2);
 
     // union money m1;
